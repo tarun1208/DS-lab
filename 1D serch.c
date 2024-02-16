@@ -13,7 +13,7 @@ int main()
     scanf("%d",&key);
     for(i=0;i<n;i++)
     {
-        if(key==a[i]);
+        if(key==a[i])
         {
             printf("key found on position=%d\n",i+1);
             pos++;
