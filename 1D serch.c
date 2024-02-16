@@ -15,6 +15,7 @@ int main()
     {
         if(key==a[i]);
         {
+            printf("key found on position=%d\n",i+1);
             pos++;
             break;
             
