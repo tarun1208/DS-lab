@@ -61,9 +61,6 @@ int main() {
 	current = malloc(sizeof(struct node *));
 	current->data = 30;
 	current->next = NULL;
-	
-	//current->next = current1;
-	
 	head->next->next=current;
 	current = malloc(sizeof(struct node *));
 	current->data = 40;
